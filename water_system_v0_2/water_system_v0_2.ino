@@ -3,8 +3,6 @@
 
 //blalballlabaslbfds
 
-//test2
-
 #include <Wire.h>
 #include <Adafruit_MotorShield.h>
 #include "utility/Adafruit_MS_PWMServoDriver.h"
@@ -33,8 +31,6 @@ Adafruit_DCMotor *left_pump = AFMS.getMotor(1);
 int moistureSensorPin = A0;    // select the input pin for the sensor
 
 void setup() {
-
-  int a = 0;
 
   Serial.begin(9600);
 
